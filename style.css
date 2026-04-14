@@ -1,12 +1,12 @@
-* {
+*{
   box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
 }
-
 html, body {
   height: 100%;
   margin: 0;
 }
-
 body {
   font-family: Arial, sans-serif;
   background: radial-gradient(circle at top, #1a1a1a, #0d0d0d);
@@ -15,8 +15,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-/* Container principal */
 .container {
   background: #121212;
   padding: 35px;
@@ -25,24 +23,18 @@ body {
   box-shadow: 0 10px 40px rgba(0,0,0,0.6);
   border: 1px solid #222;
 }
-
-/* Título */
 h1 {
   text-align: center;
   color: #00ff88;
   margin-bottom: 5px;
   font-size: 26px;
 }
-
-/* Texto */
 p {
   text-align: center;
   font-size: 14px;
   color: #bbb;
   margin-bottom: 25px;
 }
-
-/* Inputs */
 input {
   width: 100%;
   padding: 14px;
@@ -54,14 +46,11 @@ input {
   font-size: 16px;
   transition: 0.2s;
 }
-
 input:focus {
   border: 1px solid #00ff88;
   background: #181818;
   outline: none;
 }
-
-/* Botão */
 button {
   width: 100%;
   padding: 14px;
@@ -73,7 +62,6 @@ button {
   cursor: pointer;
   transition: 0.2s;
 }
-
 button:hover {
   transform: scale(1.02);
 }
